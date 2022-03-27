@@ -1,0 +1,19 @@
+main{
+    background-color: rgb(245, 245, 245);
+}
+@mixin styleButton {
+ width: 100%;
+ align-items: center; 
+ color: rgb(59, 73, 223);  
+ border:1px solid rgb(59, 73, 223);
+}
+
+@mixin efectoslistas{
+    background-color: rgba(47, 58, 178, 0.1);
+    border-radius: 2px;
+    text-decoration: underline !important;
+}
+
+@import "navbar";
+@import "asideIzq";
+@import "main";

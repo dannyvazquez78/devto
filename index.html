@@ -12,8 +12,8 @@
 <body>
  <!--  aqui empieza el navegador -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid"> 
               <a class="navbar-brand" href="#"> <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt="" width="70px;"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,62 +37,82 @@
           </nav>
     </header>
     <!-- aqui empieza el grid -->
-    <main>
+<main>
 <div class="container">
 <div class="row">
 
 <!-- aside izquierdo -->
-<div class="col col-3 bg-primary">
+<div class="col col-3 containerIz">
 
-  <div class="card" style="width: 100%;">
+  <div class="card firstCardAsideIzq" style="width: 100%;">
     <div class="card-body">
-      <h5 class="card-title">DEV Community is a community of 834,673 amazing developers</h5>
+      <h5 class="card-title"><b>DEV Community</b> is a community of 834,673 amazing developers</h5>
       <h6 class="card-subtitle mb-2 text-muted"></h6>
       <p class="card-text">We're a place where coders share, stay up-to-date and grow their careers.</p>
-      <button type="button" class="btn btn-outline-primary">Create account</button>
+      <div class="aiFB">
+        <button type="button" class="btn btn-outline-primary">Create account</button>
       <br>
-      <a href="#"> Log in </a>
+      <div class="aiFR">
+        <a href="#"> Log in </a>
+      </div>
+      </div>
     </div>
   </div>
   
 
-  <ul class="list-group">
-    <li class="list-group-item"> <img src="/img/icons8-home-16.png" alt=""><a href="#"></a>Home</li>
-    <li class="list-group-item"> <img src="/img/icons8-similar-items-48.png" alt="" width="18px">Listings</li>
-    <li class="list-group-item"><img src="/img/icons8-podcast-64.png" alt="" width="18px">Podcast</li>
-    <li class="list-group-item"> <img src="/img/icons8-videocamera-47.png" alt="" width="18px"> Videos</li>
-    <li class="list-group-item"> <img src="/img/icons8-tags-16.png" alt="" width="18px">Tags</li>
-    <li class="list-group-item"> <img src="/img/icons8-lightbulb-64.png" alt="" width="22px">FAQ</li>
-    <li class="list-group-item"> <img src="/img/icons8-shopping-bags-64.png" alt="" width="18px">Forem Shop</li>
-    <li class="list-group-item"> <img src="/img/icons8-heart-48.png" alt="" width="18px"> Sponsors</li>
-    <li class="list-group-item"> <img src="/img/icons8-developer-mode-64.png" alt="" width="18px">  About</li>
-    <li class="list-group-item"> <img src="/img/icons8-trumpet-48.png" alt="" width="18px"> Contact</li>
+  <ul class="list-group flg">
+    <a href="#"><li class="list-group-item"> <img src="/img/icons8-home-16.png" alt=""> Home</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-similar-items-48.png" alt="" width="18px"> Listings</li></a>
+    <a href=""><li class="list-group-item"><img src="/img/icons8-podcast-64.png" alt="" width="18px"> Podcast</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-videocamera-47.png" alt="" width="18px"> Videos</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-tags-16.png" alt="" width="18px"> Tags</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-lightbulb-64.png" alt="" width="22px"> FAQ</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-shopping-bags-64.png" alt="" width="18px"> Forem Shop</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-heart-48.png" alt="" width="18px"> Sponsors</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-developer-mode-64.png" alt="" width="18px">  About</li></a>
+    <a href=""><li class="list-group-item"> <img src="/img/icons8-trumpet-48.png" alt="" width="18px"> Contact</li></a>
   </ul>
   <br>
-<p>Other</p>
+<p><b>Other</b></p>
 
-<ul class="list-group">
-  <li class="list-group-item"> <img src="/img/icons8-thumbs-up-48.png" alt="" width="18px"> Code of Conduct</li>
-  <li class="list-group-item"> <img src="/img/icons8-nerd-face-48.png" alt="" width="22px"> Privacy Policy</li>
-  <li class="list-group-item"> <img src="/img/icons8-happy-eyes-24.png" alt="" width="18px">Terms of use</li>
+<ul class="list-group slg">
+  <a href=""><li class="list-group-item"> <img src="/img/icons8-thumbs-up-48.png" alt="" width="18px"> Code of Conduct</li></a>
+  <a href=""><li class="list-group-item"> <img src="/img/icons8-nerd-face-48.png" alt="" width="22px"> Privacy Policy</li></a>
+  <a href=""><li class="list-group-item"> <img src="/img/icons8-happy-eyes-24.png" alt="" width="18px"> Terms of use</li></a>
 
 </ul>
-<!-- hace falta referencia de cada uno -->
-<div>
-  <a href="http://">
-  <img src="/img/twitter (1).svg" alt="#">
-  <img src="/img/facebook.svg" alt="#">
-  <img src="/img/github.svg" alt="#">
-  <img src="/img/instagram.svg" alt="#">
-  <img src="/img/twitch.svg" alt="#">
-</a>
+<!-- Ya se referencio cada uno -->
+<br>
+<div id="contacto">
+  <a href="#"><img src="/img/twitter (1).svg" alt="#"></a>
+  <a href="#"><img src="/img/facebook.svg" alt="#"></a> 
+  <a href="#"><img src="/img/github.svg" alt="#"></a>
+  <a href="#"><img src="/img/instagram.svg" alt="#"></a>
+  <a href="#"><img src="/img/twitch.svg" alt="#"></a>
 </div>
 
 </div> 
 
+
+
 <!-- empieza main -->
   
-<div class="col col-6 bg-danger">
+<div class="col col-6 ">
+<!--Se añade una barra de navegación-->
+
+<ul class="nav mnav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#"><b>Relevant</b></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Latest</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Top</a>
+  </li>
+</ul>
+
+  <!--Card 1-->
   <div class="card" style="width: 100%;">
     <img src="/img/main_cast.webp" class="card-img-top" alt="...">
     <div class="card-body">
@@ -140,7 +160,7 @@
 
 <!-- aside derecho -->
 
-<div class="col col-3 bg-warning">
+<div class="col col-3">
 
   <div class="card">
     <div class="card-body">
@@ -193,7 +213,7 @@
 
 
 
-    </main>
+</main>
 
 
 
