@@ -102,4 +102,34 @@ main {
   margin-top: 6px;
   border-radius: 7px;
 }
+
+.adl ul a:hover {
+  background-color: rgba(47, 58, 178, 0.1);
+  border-radius: 2px;
+  text-decoration: underline !important;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .firstCardAsideIzq {
+    margin-top: 25%;
+  }
+  #contacto {
+    margin-bottom: 8%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .firstCardAsideIzq {
+    margin-top: 45px;
+  }
+  .mnav {
+    margin-top: 45px;
+  }
+  .aiFB button {
+    font-size: 13px;
+  }
+  .aiFR {
+    font-size: 13px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
